@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DA4B222140897AC00E28668 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DA4B221140897AC00E28668 /* Cocoa.framework */; };
+		5DA4B22C140897AC00E28668 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5DA4B22A140897AC00E28668 /* InfoPlist.strings */; };
+		5DA4B22E140897AC00E28668 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DA4B22D140897AC00E28668 /* main.m */; };
+		5DA4B232140897AC00E28668 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5DA4B230140897AC00E28668 /* Credits.rtf */; };
+		5DA4B235140897AC00E28668 /* QuickDictAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DA4B234140897AC00E28668 /* QuickDictAppDelegate.m */; };
+		5DA4B238140897AC00E28668 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DA4B236140897AC00E28668 /* MainMenu.xib */; };
+		5DA4B240140897AC00E28668 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DA4B23F140897AC00E28668 /* SenTestingKit.framework */; };
+		5DA4B241140897AC00E28668 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DA4B221140897AC00E28668 /* Cocoa.framework */; };
+		5DA4B249140897AC00E28668 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5DA4B247140897AC00E28668 /* InfoPlist.strings */; };
+		5DA4B24B140897AC00E28668 /* QuickDictTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 5DA4B24A140897AC00E28668 /* QuickDictTests.h */; };
+		5DA4B24D140897AC00E28668 /* QuickDictTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DA4B24C140897AC00E28668 /* QuickDictTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5DA4B242140897AC00E28668 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DA4B214140897AC00E28668 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DA4B21C140897AC00E28668;
+			remoteInfo = QuickDict;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5DA4B21D140897AC00E28668 /* QuickDict.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickDict.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DA4B221140897AC00E28668 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5DA4B224140897AC00E28668 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5DA4B225140897AC00E28668 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5DA4B226140897AC00E28668 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5DA4B229140897AC00E28668 /* QuickDict-Info.plist */ = {isa = PBXFileReference; path = "QuickDict-Info.plist"; sourceTree = "<group>"; };
+		5DA4B22B140897AC00E28668 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5DA4B22D140897AC00E28668 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5DA4B22F140897AC00E28668 /* QuickDict-Prefix.pch */ = {isa = PBXFileReference; path = "QuickDict-Prefix.pch"; sourceTree = "<group>"; };
+		5DA4B231140897AC00E28668 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		5DA4B233140897AC00E28668 /* QuickDictAppDelegate.h */ = {isa = PBXFileReference; path = QuickDictAppDelegate.h; sourceTree = "<group>"; };
+		5DA4B234140897AC00E28668 /* QuickDictAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickDictAppDelegate.m; sourceTree = "<group>"; };
+		5DA4B237140897AC00E28668 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5DA4B23E140897AC00E28668 /* QuickDictTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickDictTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DA4B23F140897AC00E28668 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5DA4B246140897AC00E28668 /* QuickDictTests-Info.plist */ = {isa = PBXFileReference; path = "QuickDictTests-Info.plist"; sourceTree = "<group>"; };
+		5DA4B248140897AC00E28668 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5DA4B24A140897AC00E28668 /* QuickDictTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickDictTests.h; sourceTree = "<group>"; };
+		5DA4B24C140897AC00E28668 /* QuickDictTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickDictTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DA4B21A140897AC00E28668 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DA4B222140897AC00E28668 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DA4B23A140897AC00E28668 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DA4B240140897AC00E28668 /* SenTestingKit.framework in Frameworks */,
+				5DA4B241140897AC00E28668 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DA4B212140897AC00E28668 = {
+			isa = PBXGroup;
+			children = (
+				5DA4B227140897AC00E28668 /* QuickDict */,
+				5DA4B244140897AC00E28668 /* QuickDictTests */,
+				5DA4B220140897AC00E28668 /* Frameworks */,
+				5DA4B21E140897AC00E28668 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DA4B21E140897AC00E28668 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DA4B21D140897AC00E28668 /* QuickDict.app */,
+				5DA4B23E140897AC00E28668 /* QuickDictTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DA4B220140897AC00E28668 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DA4B221140897AC00E28668 /* Cocoa.framework */,
+				5DA4B23F140897AC00E28668 /* SenTestingKit.framework */,
+				5DA4B223140897AC00E28668 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5DA4B223140897AC00E28668 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DA4B224140897AC00E28668 /* AppKit.framework */,
+				5DA4B225140897AC00E28668 /* CoreData.framework */,
+				5DA4B226140897AC00E28668 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		5DA4B227140897AC00E28668 /* QuickDict */ = {
+			isa = PBXGroup;
+			children = (
+				5DA4B233140897AC00E28668 /* QuickDictAppDelegate.h */,
+				5DA4B234140897AC00E28668 /* QuickDictAppDelegate.m */,
+				5DA4B236140897AC00E28668 /* MainMenu.xib */,
+				5DA4B228140897AC00E28668 /* Supporting Files */,
+			);
+			path = QuickDict;
+			sourceTree = "<group>";
+		};
+		5DA4B228140897AC00E28668 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DA4B229140897AC00E28668 /* QuickDict-Info.plist */,
+				5DA4B22A140897AC00E28668 /* InfoPlist.strings */,
+				5DA4B22D140897AC00E28668 /* main.m */,
+				5DA4B22F140897AC00E28668 /* QuickDict-Prefix.pch */,
+				5DA4B230140897AC00E28668 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5DA4B244140897AC00E28668 /* QuickDictTests */ = {
+			isa = PBXGroup;
+			children = (
+				5DA4B24A140897AC00E28668 /* QuickDictTests.h */,
+				5DA4B24C140897AC00E28668 /* QuickDictTests.m */,
+				5DA4B245140897AC00E28668 /* Supporting Files */,
+			);
+			path = QuickDictTests;
+			sourceTree = "<group>";
+		};
+		5DA4B245140897AC00E28668 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DA4B246140897AC00E28668 /* QuickDictTests-Info.plist */,
+				5DA4B247140897AC00E28668 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DA4B21C140897AC00E28668 /* QuickDict */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DA4B250140897AC00E28668 /* Build configuration list for PBXNativeTarget "QuickDict" */;
+			buildPhases = (
+				5DA4B219140897AC00E28668 /* Sources */,
+				5DA4B21A140897AC00E28668 /* Frameworks */,
+				5DA4B21B140897AC00E28668 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuickDict;
+			productName = QuickDict;
+			productReference = 5DA4B21D140897AC00E28668 /* QuickDict.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5DA4B23D140897AC00E28668 /* QuickDictTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DA4B253140897AC00E28668 /* Build configuration list for PBXNativeTarget "QuickDictTests" */;
+			buildPhases = (
+				5DA4B239140897AC00E28668 /* Sources */,
+				5DA4B23A140897AC00E28668 /* Frameworks */,
+				5DA4B23B140897AC00E28668 /* Resources */,
+				5DA4B23C140897AC00E28668 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DA4B243140897AC00E28668 /* PBXTargetDependency */,
+			);
+			name = QuickDictTests;
+			productName = QuickDictTests;
+			productReference = 5DA4B23E140897AC00E28668 /* QuickDictTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DA4B214140897AC00E28668 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "idryman@gmail.com";
+			};
+			buildConfigurationList = 5DA4B217140897AC00E28668 /* Build configuration list for PBXProject "QuickDict" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5DA4B212140897AC00E28668;
+			productRefGroup = 5DA4B21E140897AC00E28668 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DA4B21C140897AC00E28668 /* QuickDict */,
+				5DA4B23D140897AC00E28668 /* QuickDictTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DA4B21B140897AC00E28668 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DA4B22C140897AC00E28668 /* InfoPlist.strings in Resources */,
+				5DA4B232140897AC00E28668 /* Credits.rtf in Resources */,
+				5DA4B238140897AC00E28668 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DA4B23B140897AC00E28668 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DA4B249140897AC00E28668 /* InfoPlist.strings in Resources */,
+				5DA4B24B140897AC00E28668 /* QuickDictTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5DA4B23C140897AC00E28668 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DA4B219140897AC00E28668 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DA4B22E140897AC00E28668 /* main.m in Sources */,
+				5DA4B235140897AC00E28668 /* QuickDictAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DA4B239140897AC00E28668 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DA4B24D140897AC00E28668 /* QuickDictTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5DA4B243140897AC00E28668 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DA4B21C140897AC00E28668 /* QuickDict */;
+			targetProxy = 5DA4B242140897AC00E28668 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5DA4B22A140897AC00E28668 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DA4B22B140897AC00E28668 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5DA4B230140897AC00E28668 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DA4B231140897AC00E28668 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		5DA4B236140897AC00E28668 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DA4B237140897AC00E28668 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		5DA4B247140897AC00E28668 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DA4B248140897AC00E28668 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DA4B24E140897AC00E28668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5DA4B24F140897AC00E28668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5DA4B251140897AC00E28668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuickDict/QuickDict-Prefix.pch";
+				INFOPLIST_FILE = "QuickDict/QuickDict-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5DA4B252140897AC00E28668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuickDict/QuickDict-Prefix.pch";
+				INFOPLIST_FILE = "QuickDict/QuickDict-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5DA4B254140897AC00E28668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/QuickDict.app/Contents/MacOS/QuickDict";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuickDict/QuickDict-Prefix.pch";
+				INFOPLIST_FILE = "QuickDictTests/QuickDictTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5DA4B255140897AC00E28668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/QuickDict.app/Contents/MacOS/QuickDict";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuickDict/QuickDict-Prefix.pch";
+				INFOPLIST_FILE = "QuickDictTests/QuickDictTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DA4B217140897AC00E28668 /* Build configuration list for PBXProject "QuickDict" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DA4B24E140897AC00E28668 /* Debug */,
+				5DA4B24F140897AC00E28668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DA4B250140897AC00E28668 /* Build configuration list for PBXNativeTarget "QuickDict" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DA4B251140897AC00E28668 /* Debug */,
+				5DA4B252140897AC00E28668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5DA4B253140897AC00E28668 /* Build configuration list for PBXNativeTarget "QuickDictTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DA4B254140897AC00E28668 /* Debug */,
+				5DA4B255140897AC00E28668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DA4B214140897AC00E28668 /* Project object */;
+}
