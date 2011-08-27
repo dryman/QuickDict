@@ -7,11 +7,16 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import <CoreServices/CoreServices.h>
 
 @interface QuickDictAppDelegate : NSObject <NSApplicationDelegate> {
     NSWindow *window;
+    NSSearchField *DictSearchField;
 }
 
+@property (assign) IBOutlet NSSearchField *DictSearchField;
 @property (assign) IBOutlet NSWindow *window;
+
+- (IBAction)DictEnter:(id)sender;
 
 @end

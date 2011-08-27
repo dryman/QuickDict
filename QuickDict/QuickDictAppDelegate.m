@@ -10,6 +10,7 @@
 
 @implementation QuickDictAppDelegate
 
+@synthesize DictSearchField;
 @synthesize window;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
@@ -17,4 +18,11 @@
     // Insert code here to initialize your application
 }
 
+- (IBAction)DictEnter:(id)sender {
+    CFRange text_range = DCSGetTermRangeInString(NULL, CFSTR("test"), 0);
+    NSString* text_definition = (NSString*) DCSCopyTextDefinition(NULL, CFSTR("test"), text_range);
+    NSLog("%@\n",text_definition);
+    
+    
+}
 @end
