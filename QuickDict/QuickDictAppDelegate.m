@@ -19,8 +19,10 @@
 }
 
 - (IBAction)DictEnter:(id)sender {
-    CFRange text_range = DCSGetTermRangeInString(NULL, CFSTR("test"), 0);
-    NSString* text_definition = (NSString*) DCSCopyTextDefinition(NULL, CFSTR("test"), text_range);
+    CFStringRef search_str = (CFStringRef)[DictSearchField stringValue];
+    
+    CFRange text_range = DCSGetTermRangeInString(NULL, search_str, 0);
+    NSString* text_definition = (NSString*) DCSCopyTextDefinition(NULL, search_str, text_range);
     NSLog("%@\n",text_definition);
     
     
