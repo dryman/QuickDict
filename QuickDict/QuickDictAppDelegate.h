@@ -11,11 +11,13 @@
 
 @interface QuickDictAppDelegate : NSObject <NSApplicationDelegate> {
     NSWindow *window;
+    NSTextField *DictText;
     NSSearchField *DictSearchField;
 }
 
 @property (assign) IBOutlet NSSearchField *DictSearchField;
 @property (assign) IBOutlet NSWindow *window;
+@property (assign) IBOutlet NSTextField *DictText;
 
 - (IBAction)DictEnter:(id)sender;
 

@@ -12,6 +12,7 @@
 
 @synthesize DictSearchField;
 @synthesize window;
+@synthesize DictText;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
@@ -23,7 +24,9 @@
     
     CFRange text_range = DCSGetTermRangeInString(NULL, search_str, 0);
     NSString* text_definition = (NSString*) DCSCopyTextDefinition(NULL, search_str, text_range);
-    NSLog("%@\n",text_definition);
+    // NSLog("%@\n",text_definition);
+    [DictText setStringValue:text_definition];
+    NSLog(@"%@\n",[DictText stringValue]);
     
     
 }
