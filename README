@@ -1,0 +1,18 @@
+QuickDict
+=========
+
+QuickDict is a cocoa menu app that you can search system dictionary immediately.
+
+TODOs
+-----
+
+* Preferences window
+* System wide shortcut
+* Hide app icon in dock
+* Focus on search field when click on menu icon
+
+Bugs
+----
+
+* Cannot key in search field when focus on other app
+* Focus ring overlaps while blinking

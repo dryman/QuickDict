@@ -26,6 +26,17 @@
     [menuStatus setTitle:@"Dict"];
     [menuStatus setHighlightMode:YES];
 }
+/*
+- (void)menuWillOpen: dictMenu {
+    [self performSelector:@selector(menuClick) 
+               withObject:nil 
+               afterDelay:0.0 
+                  inModes: [NSArray arrayWithObject:NSRunLoopCommonModes]];
+}
+- (void)menuCLick{
+    [[DictSearchField window] makeFirstResponder:DictSearchField];
+}
+ */
 
 - (IBAction)DictEnter:(id)sender {
     CFStringRef search_str = (CFStringRef)[DictSearchField stringValue];
