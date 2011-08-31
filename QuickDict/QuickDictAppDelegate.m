@@ -13,10 +13,18 @@
 @synthesize DictSearchField;
 @synthesize window;
 @synthesize DictText;
+@synthesize dictMenu;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     // Insert code here to initialize your application
+}
+
+- (void)awakeFromNib {
+    menuStatus = [[[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength] retain];
+    [menuStatus setMenu: dictMenu];
+    [menuStatus setTitle:@"Dict"];
+    [menuStatus setHighlightMode:YES];
 }
 
 - (IBAction)DictEnter:(id)sender {
@@ -27,7 +35,5 @@
     // NSLog("%@\n",text_definition);
     [DictText setStringValue:text_definition];
     NSLog(@"%@\n",[DictText stringValue]);
-    
-    
 }
 @end
